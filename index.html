@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Human Talks - NoSSII</title>
+
+    <meta name="description" content="Présentation aux Human Talks sur les NoSSII">
+    <meta name="author" content="Sylvain Chabert">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/beige.css" id="theme">
+
+    <!-- Code syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+</head>
+
+<body>
+
+<div class="reveal">
+
+    <!-- Any section element inside of this container is displayed as a slide -->
+    <div class="slides">
+        <section>
+            <h1>Les NoSSII</h1>
+
+            <h3>Entre la SSII et le freelance</h3>
+
+            <p>
+                <small>Sylvain Chabert</small>
+            </p>
+        </section>
+
+        <section>
+            <h2>Qui suis-je ?</h2>
+
+            <p>Développeur java/js</p>
+
+            <p>Experience chez un éditeur et en SSII</p>
+
+            <p>Chez Néovia depuis 2008</p>
+        </section>
+
+
+        <section>
+            <h2>D'où venez vous ?</h2>
+
+            <p>SSII ?</p>
+
+            <p class="fragment">Freelance ?</p>
+
+            <p class="fragment">Editeur ?</p>
+
+            <p class="fragment">Etudiants ?</p>
+
+            <p class="fragment">Autres ?</p>
+
+        </section>
+
+        <section>
+            <section>
+                <h2>Freelancing</h2>
+            </section>
+
+            <section data-background="images/freedom.jpg">
+                <h2 style="color: grey;">Liberté / Autonomie</h2>
+            </section>
+
+            <section data-background="images/picsou.jpeg">
+                <h2 style="color: white;">Rémunération</h2>
+            </section>
+
+            <section data-background="">
+                <h2>Chercher / Trouver ses missions</h2>
+
+                <p class="fragment">Risque intercontrat</p>
+            </section>
+
+            <section data-background="">
+                <h2>Gestion administrative</h2>
+
+                <p class="fragment">Comptabilité</p>
+
+                <p class="fragment">Factures & relance clients</p>
+
+                <p class="fragment">RSI & autres organismes</p>
+            </section>
+
+            <section data-background="">
+                <h2>Crédibilité auprès des banques</h2>
+            </section>
+        </section>
+
+        <section>
+            <section>
+                <h2>SSII</h2>
+            </section>
+
+            <section data-background="">
+                <h2>Sécurité</h2>
+
+                <p class="fragment">CDI</p>
+                <p class="fragment">Pas de recherche de mission</p>
+                <p class="fragment">Rémunération garantie</p>
+                <p class="fragment">Couverture sociale</p>
+            </section>
+
+            <section data-background="">
+                <h2>Considération</h2>
+
+                <p class="fragment">Rémunération</p>
+
+                <p class="fragment">Responsabilité / Crédibilité</p>
+            </section>
+
+            <section data-background="">
+                <h2>Liberté</h2>
+            </section>
+        </section>
+
+
+    </div>
+
+</div>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+
+<script>
+
+    // Full list of configuration options available at:
+    // https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+
+        transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+        // Optional reveal.js plugins
+        dependencies: [
+            {
+                src: 'lib/js/classList.js', condition: function () {
+                return !document.body.classList;
+            }
+            },
+            {
+                src: 'plugin/markdown/marked.js', condition: function () {
+                return !!document.querySelector('[data-markdown]');
+            }
+            },
+            {
+                src: 'plugin/markdown/markdown.js', condition: function () {
+                return !!document.querySelector('[data-markdown]');
+            }
+            },
+            {
+                src: 'plugin/highlight/highlight.js', async: true, condition: function () {
+                return !!document.querySelector('pre code');
+            }, callback: function () {
+                hljs.initHighlightingOnLoad();
+            }
+            },
+            {src: 'plugin/zoom-js/zoom.js', async: true},
+            {src: 'plugin/notes/notes.js', async: true}
+        ]
+    });
+
+</script>
+
+</body>
+</html>
